@@ -15,7 +15,7 @@ RUN apt-get update &&			\
 #	php5-gmp			\
 #	php5-mcrypt			\
 #	php5-ldap			\
-	nginx
+	nginx				\
 	--no-install-recommends && 	\
     apt-get clean && 			\
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
